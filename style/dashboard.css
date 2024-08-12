@@ -1,0 +1,283 @@
+hr{
+    width: 100%;
+    border: none;
+    background-image: linear-gradient(aqua,rgb(252, 253, 253));
+    box-shadow: 0px 20px 20px 1px;
+}
+.Btn{
+    font-size: 100%;
+    border-radius:10%;
+    box-shadow: 0px 4px 6px 1px;
+    background-image: linear-gradient(rgb(72, 248, 3),rgb(255, 255, 255));
+    border: none;
+    position: relative;
+    width: 10%;
+    display: inline-block;
+    
+  
+}
+
+.fnt{
+    font-family: 'Times New Roman', Times, serif;
+ 
+}
+.middle{
+    width: 70%;
+    
+}
+
+.Shape{
+background-image: linear-gradient(rgb(102, 255, 0),rgb(252, 253, 253));
+clip-path: polygon(1 1, 1 100%, 100% 100%, 100% 1);
+width: 180px;
+height: 180px;
+border-radius: 0 25% 0 25%;
+display:  inline-block;
+margin: 30px;
+box-shadow: 0px 20px 16px 1px;
+border: none;
+
+}
+.IMG{
+    width: 50px;
+    border-radius: 0 25% 0 25%;
+    background-color: white;
+    box-shadow: 0px 8px 7px 0px;
+    margin-top: -30px;
+    
+
+}
+.txt{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    animation-name: shapeEntry;
+    animation-duration: 0.5s;
+}
+.login{
+
+width: 40%;
+aspect-ratio: 1/ 0.5;
+background-image: linear-gradient(rgb(0, 255, 221),rgba(252, 253, 253, 0.322),rgb(0, 255, 221));
+border: none;
+position: absolute;
+z-index: 1;
+left: 30%;
+}
+.register{
+    
+    width: 90%;
+    height: auto;
+background-image: linear-gradient(rgb(0, 255, 221),rgba(252, 253, 253, 0.322),rgb(0, 255, 221));
+border: none;
+position: absolute;
+z-index: 1;
+left: 5%;
+border-radius: 5%;
+
+box-shadow: 0px 20px 16px 1px;
+}
+.vdos{
+    width: 720px; 
+    height: 410px;
+}
+.notice{
+    background-image: linear-gradient(rgb(0, 255, 221),rgba(252, 253, 253, 0.322),rgb(0, 255, 221));
+clip-path: polygon(1 1, 1 100%, 100% 100%, 100% 1);
+width: 60%;
+height: auto;
+aspect-ratio: 1/ 1.5;
+box-shadow: 0px 20px 16px 1px;
+border: none;
+position: absolute;
+z-index: 1;
+left: 25%;
+top: 2%;
+display: none;
+border-radius: 5%;
+}
+.profile{
+
+    width: 80px;
+    aspect-ratio: 1/ 1;
+    display:  block;
+    position: absolute;
+    border: none;
+    border-radius: 50%;
+    left: 0%;
+    top: 0%;
+    }
+
+.profileSection{
+position: absolute;
+z-index: 1;
+left: 0;
+width: 60%;
+display: none;
+animation: Entry;
+animation-duration: 1s;
+top: 80px;
+text-align: left;
+
+}
+.profile_list{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    border-radius:10%;
+    box-shadow: 0px 4px 6px 1px black;
+    background-image: linear-gradient(rgb(248, 3, 3),rgb(255, 217, 0));
+    border: none;
+    position: relative;
+    width: 20%;
+    display: inline-block;
+color: white;
+}
+@keyframes  Entry{
+    from{
+        left: -50px;
+    }
+    to{left: 0px;}
+    
+}
+.fram_profile{
+position: absolute;
+z-index: 3;
+margin-left: 10%;
+background-image: linear-gradient(rgb(0, 255, 221),rgba(252, 253, 253, 0.322),rgb(0, 255, 221));
+clip-path: polygon(1 1, 1 100%, 100% 100%, 100% 1);
+width: 80%;
+height: auto;
+margin-top: 70px;
+box-shadow: 0px 20px 16px 1px;
+border: none;
+}
+
+.style_form{
+text-align: left;
+}
+.registerBtn{
+    font-size:90%;
+    border-radius:10%;
+    box-shadow: 0px 4px 6px 1px;
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(72, 248, 3));
+    border: none;
+    width: 15%;
+    aspect-ratio: 2/ 1;
+    position: relative;
+    display: inline-block;
+
+}
+label{
+    background-image: linear-gradient( to bottom,rgba(0, 255, 242, 0.541),rgb(0, 153, 255));
+    border: none;
+    box-shadow: 0px 4px 6px 1px;
+    border-radius: 25%;
+}
+input, textarea {
+    background-color: #fa01ed4d;
+    box-shadow: 0px 4px 6px 1px;
+    border: none;
+  }
+  fieldset{
+    border: 2px solid green;
+    box-shadow: 0px 4px 6px 1px;
+    background-color: aliceblue;
+  }
+  legend{
+    background-color:white;
+    border:1px solid black;
+  }
+@media only screen and (max-width: 874px) {
+    .Shape{
+        aspect-ratio: 1/ 1;
+        width: 40%;
+        height: auto;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .Btn{
+        font-size: 100%;
+    width: 20%;
+    }
+    .vdos{
+        aspect-ratio: 2/ 1;
+        width: 100%;
+        height: auto;   
+    }
+    .middle{
+            width: 100%;           
+        }
+    .IMG{
+            aspect-ratio: 1/ 1;
+            width: 60px;
+        }
+    .txt{
+            font-size: 15px;
+        }
+    .profile{
+        width: 40px;
+        height:40px;
+        } 
+    .notice{
+            width: 90%;
+            left: 5%;
+        }
+        .login{
+            width: 90%;
+            left: 5%;
+        }
+        .profileSection{
+            width: 95%;
+            top: 40px;
+
+        }
+        .profile_list{
+            width: 24%;
+            font-size: 0.8em;
+        }
+    
+  }
+  @media only screen and (max-width: 460px) {
+    .Shape{
+        aspect-ratio: 1/ 1;
+        width: 40%;
+        height: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .login{
+        width: 90%;
+        left: 5%;
+    }
+    .Btn{
+        font-size: 100%;
+    width: 40%;
+    }
+    .profile{
+        width: 40px;
+
+        }
+.registerBtn{
+    width: 30%;
+    font: size 0.5em;
+}
+.style_form{
+    font-size: 0.8em;
+    }
+    .profileSection{
+        width: 95%;
+        padding: 2%;
+    }
+    .profile_list{
+        width: 24%;
+        font-size: 0.8em;
+    }
+    .fram_profile{
+        width: 90%;
+        margin-left: 5%;
+    }
+  }

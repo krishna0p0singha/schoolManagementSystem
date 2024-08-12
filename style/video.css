@@ -1,0 +1,11 @@
+.vdos{
+    width: 720px; 
+    height: 410px;
+}
+@media only screen and (max-width: 874px) {
+    .vdos{
+        width: 360px; 
+        height: 240px;
+    }
+ 
+  }
